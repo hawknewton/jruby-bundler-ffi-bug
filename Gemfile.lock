@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.3-java)
+    rake (10.3.2)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  ffi
+  rake
