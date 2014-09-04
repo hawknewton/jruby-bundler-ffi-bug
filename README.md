@@ -1,8 +1,10 @@
 Overview
 ========
-It would appear jruby 1.7.13 preloads the ffi gem as either part of it's
-initialization process or the initialization process of bundler.  This
-behavior differs from other 1.7.x versions I've tested.
+It would appear jruby 1.7.13 (and up) preloads the ffi gem as either part of
+it's initialization process or the initialization process of bundler.  This
+behavior differs from other versions <= 1.7.12.
+
+I've tested up to 1.7.15, at the moment.
 
 Who cares?
 ----------
@@ -74,5 +76,5 @@ as it surprised the hell out of me.
 
 Next Steps
 ----------
-* Test with jruby > 1.7.13
+* Test with jruby > 1.7.15
 * Create a patch and issue a PR against jruby/jruby
